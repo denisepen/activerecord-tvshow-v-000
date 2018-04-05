@@ -11,7 +11,7 @@ class Show < ActiveRecord::Base
     # Movie.having("highest_rating")
     binding.pry
     m = Movie.highest_rating
-    
+
   end
 
 end
