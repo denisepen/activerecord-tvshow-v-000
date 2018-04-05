@@ -1,5 +1,5 @@
 
 def highest_rating
-  show = Show.having(MAX(rating))
-  
+  show = Show.maximum(rating)
+
 end
