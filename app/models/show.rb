@@ -6,7 +6,7 @@ class Show < ActiveRecord::Base
   end
 
   def self.most_popular_show
-    Movie.having(highest_rating)
+    Movie.having("highest_rating")
 
     # self.highest_rating.name
   end
