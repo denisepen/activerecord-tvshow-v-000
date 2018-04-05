@@ -3,7 +3,7 @@ require 'pry'
 class Show < ActiveRecord::Base
 
   def self.highest_rating
-    Show.maximum("rating")
+    m = Show.maximum("rating")
     Show.save
 
   end
