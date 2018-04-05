@@ -9,7 +9,7 @@ class Show < ActiveRecord::Base
 
   def self.most_popular_show
     # Movie.having("highest_rating")
-    binding.pry
+    # binding.pry
     Show.where(highest_rating)
 
   end
