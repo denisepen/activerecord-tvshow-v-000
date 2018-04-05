@@ -10,7 +10,7 @@ class Show < ActiveRecord::Base
   def self.most_popular_show
     # Movie.having("highest_rating")
     binding.pry
-    m = Movie.highest_rating
+    s = Show.highest_rating
 
   end
 
